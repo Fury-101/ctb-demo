@@ -2,12 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
-
-* {
-    font-family: "Nunito Sans" sans-serif;
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
 }
 
 body {
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(230, 230, 230);
 }
